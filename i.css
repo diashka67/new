@@ -1,0 +1,614 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* ================ Общие стили ================ */
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Стили для хедера */
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-tel {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.currency-exchange,
+.header-call {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+
+.tel {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.11111;
+  color: #111827;
+}
+
+.call-Russia {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.33333;
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  font-weight: 700;
+  color: #111827;
+  margin-right: 24px;
+}
+
+.header-button {
+  border-radius: 4px;
+  padding: 10px 28px;
+  background-color: #8b5cf6;
+  margin: 24px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f9fafb;
+}
+
+/* Стили для первой секции */
+
+.main-section {
+  background-color: #e5e7eb;
+  display: flex;
+}
+
+.main-section-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.left-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.11111;
+  margin-bottom: 12px;
+}
+
+.main-section-description {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.main-img {
+  border-radius: 16px;
+}
+
+.right-part {
+  border-radius: 16px;
+  padding: 24px 27px;
+  max-width: 756px;
+  background-color: #f9fafb;
+  margin-top: 72px;
+  text-align: center;
+}
+
+.span-calculator {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.delivery-calculation {
+  line-height: 1.5;
+  text-align: center;
+  color: #111827;
+  margin: 16px 0;
+}
+
+.text {
+  border: 2px solid #111827;
+  border-radius: 4px;
+  padding: 12px;
+  max-width: 496px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.customer-data {
+  border: 2px solid #111827;
+  border-radius: 4px;
+  padding: 12px;
+  max-width: 236px;
+  width: 100%;
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.indent {
+  margin-right: 24px;
+}
+
+.main-section-button {
+  border-radius: 4px;
+  padding: 10px 28px;
+  max-width: 496px;
+  width: 100%;
+  background: #8b5cf6;
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f9fafb;
+}
+
+/* Стили для второй секции */
+
+.second-section {
+  background: #e5e7eb;
+}
+
+.our-benefits {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 72px;
+  margin-bottom: 90px;
+}
+
+.second-section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.title-description {
+  display: flex;
+  align-items: center; /* Выровнять элементы по центру по вертикали */
+  gap: 20px; /* Добавить расстояние между изображением и текстом */
+  text-align: left; /* Выровнять текст по левому краю */
+  margin-bottom: 72px;
+}
+
+.service-name-description {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.service-name {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.33333;
+}
+
+.service-description {
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
+/* Стили для третьей секции */
+
+.third-section {
+  background: #e5e7eb;
+}
+
+.quality-assurances {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.guarantee-text {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.document-list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.document-title {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.more-documents {
+  display: block;
+  border-radius: 12px;
+  padding: 16px 28px;
+  background-color: #8b5cf6;
+  max-width: 315px;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  color: #f9fafb;
+  margin: 36px auto 72px; /* Центрирование кнопки */
+}
+
+/* Стили для четвертой секции */
+
+.fourth-section {
+  background: #e5e7eb;
+}
+
+.feedback {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.image-button {
+  width: 60px;
+  height: 60px;
+  background: #e5e7eb;
+  border: none;
+  background-image: url(./assets/img/Switch.svg);
+  background-size: cover;
+}
+
+.right {
+  background-image: url(./assets/img/Right-switch.svg);
+}
+
+.feedback-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  align-items: center;
+}
+
+.description-feedback {
+  border-radius: 16px;
+  max-width: 626px;
+  height: 350px;
+  width: 100%;
+  background: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+.name {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #6b7280;
+  margin: 0 0 32px 43px;
+}
+
+.description-feedback > p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33333;
+  margin-top: 32px;
+  margin-left: 43px;
+}
+
+/* Стили для пятой секции */
+
+.fifth-section {
+  background: #e5e7eb;
+}
+
+.any-questions-wrapper {
+  background: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.any-questions {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 64px 0 32px 0;
+  border-radius: 16px;
+}
+
+.forma {
+  max-width: 497px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.last-text {
+  border: 2px solid #111827;
+  border-radius: 4px;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #9ca3af;
+  width: calc(50% - 12px);
+}
+
+.message {
+  width: 100%; /* Занимает всю ширину родительского контейнера */
+  height: 150px;
+}
+
+.leave-request {
+  border-radius: 4px;
+  padding: 10px 28px;
+  background: #8b5cf6;
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f9fafb;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+/* Стили для футера */
+
+.footer {
+  background: #111827;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.law {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33333;
+  color: #f9fafb;
+}
+
+.main-footer-nav {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-nav {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f9fafb;
+}
+
+.tel-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: end;
+}
+
+.footer-tel {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.11111;
+  color: #f9fafb;
+}
+
+.footer-call-Russia {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #f9fafb;
+}
+
+.offer {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.33333;
+  color: #4b5563;
+  margin-top: 24px;
+}
+
+/* ================ Адаптив 1536 ================ */
+
+@media screen and (max-width: 1536px) {
+  .container {
+    max-width: 1024px;
+  }
+
+/* Адаптив хедер */
+
+  .tel {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .call-Russia {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+/* Адаптив первая секция */
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-top: 48px;
+  }
+
+  .main-img {
+    max-width: 505px;
+    max-height: 232px;
+    margin-top: 48px;
+  }
+
+  .main-section-wrap {
+    flex-direction: column;
+  }
+
+  .left-part {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .main-section-description {
+    margin-bottom: 0px;
+  }
+
+  .right-part {
+    max-width: 1026px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .text {
+    max-width: 606px;
+  }
+
+  .customer-data {
+    max-width: 291px;
+    margin-top: 0px;
+    width: calc(50% - 12px);
+  }
+
+  .indent {
+    margin-right: 0px;
+  }
+
+  .form {
+    max-width: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0 auto;
+  }
+
+  .main-section-button {
+    max-width: 606px;
+  }
+
+  /* Адаптив вторая секция */
+
+  .our-benefits {
+    padding-top: 48px;
+    margin-bottom: 64px;
+  }
+
+/* Адаптив третья секция */
+
+  .document-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .document-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .document-title {
+    margin-bottom: 24px;
+  }
+
+  .more-documents {
+    margin: 12px auto 48px;
+  }
+
+/* Адаптив четвертая секция */
+
+  .description-feedback > p {
+    font-size: 18px;
+    line-height: 1.55556;
+    margin: 16px 16px 0 16px;
+  }
+
+  .name {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  .description-feedback {
+    max-width: 396px;
+    height: 276px;
+    margin-bottom: 48px;
+  }
+
+/* Адаптив футер */
+
+  .footer-tel {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .footer-call-Russia {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .main-footer-nav {
+    gap: 14px;
+  }
+}
